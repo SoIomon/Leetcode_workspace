@@ -1,4 +1,4 @@
-from typing import *
+from Leetcode_type import *
 
 class Solution:
     def sumZero(self, n: int) -> List[int]:
@@ -10,6 +10,3 @@ class Solution:
             result.append(i)
             result.append(-1*i)
         return result
-
-a = Solution().sumZero(3)
-print(a)
